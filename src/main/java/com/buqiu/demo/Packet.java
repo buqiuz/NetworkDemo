@@ -1,9 +1,5 @@
 package com.buqiu.demo;
 
-import com.buqiu.demo.DataLinkHeader;
-import com.buqiu.demo.NetworkHeader;
-import com.buqiu.demo.TransportHeader;
-
 /**
  * Represents a complete network packet with all layer headers and application data.
  */

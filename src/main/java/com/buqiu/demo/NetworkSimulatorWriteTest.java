@@ -1,6 +1,5 @@
 package com.buqiu.demo;
 
-import com.buqiu.demo.*;
 
 import java.io.FileOutputStream;
 import java.io.IOException;

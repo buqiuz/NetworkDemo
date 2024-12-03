@@ -1,8 +1,5 @@
 package com.buqiu.demo;
 
-import com.buqiu.demo.NetworkSimulator;
-import com.buqiu.demo.Packet;
-
 import java.io.FileInputStream;
 import java.io.IOException;
 
