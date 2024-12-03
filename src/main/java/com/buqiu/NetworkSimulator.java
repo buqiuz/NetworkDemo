@@ -2,7 +2,7 @@ package com.buqiu;
 
 /**
  * <p>
- * 类描述
+ * 可以实现网络模拟器，封装和解封装数据
  * </p>
  *
  * @author: 不秋
@@ -57,7 +57,7 @@ public class NetworkSimulator {
         buffer.putShort((short) 80);    // 目的端口
         buffer.putInt(1);               // 序列号
         buffer.putInt(0);               // 确认号
-        buffer.putShort((short) ((5 << 12) | 0)); // 数据偏移（5）和保留位、标志位
+        buffer.putShort((short) ((5 << 12))); // 数据偏移（5）和保留位、标志位
         buffer.putShort((short) 0);     // 窗口大小
         buffer.putShort((short) 0);     // 校验和
         buffer.putShort((short) 0);     // 紧急指针
