@@ -16,7 +16,7 @@ public class Encapsulation {
     public static void main(String[] args) {
         try {
             // 原始应用层数据
-            String appData = "message";
+            String appData = "模拟数据";
 
             // 封装过程
             byte[] physicalData = NetworkSimulator.encapsulate(appData.getBytes(StandardCharsets.UTF_8));
