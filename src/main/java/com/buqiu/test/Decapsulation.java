@@ -1,4 +1,4 @@
-package com.buqiu;
+package com.buqiu.test;
 
 /**
  * <p>
