@@ -23,7 +23,7 @@
 - `NetworkSimulator`：实现了五层协议的封装和解封装，可以通过调用 `encapsulate` 和 `decapsulate` 方法实现数据的传输。
 - `Packet`：表示一个完整的数据包，包含应用层数据和各层的头部信息。
 - `TransportHeader`：表示传输层头部（例如 TCP）。
-- `NetworkHeade`r：表示网络层头部（例如 IPv4）。
+- `NetworkHeader`：表示网络层头部（例如 IPv4）。
 - `DataLinkHeader`：表示数据链路层头部（例如以太网）。
 - `NetworkSimulatorWriteTest`：测试类，用于封装数据并将其写入二进制文件 `encapsulatedData.bin`。
 - `NetworkSimulatorReadTest`：测试类，用于从二进制文件中读取数据并进行解封装。
