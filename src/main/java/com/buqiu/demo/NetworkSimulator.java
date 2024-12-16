@@ -330,8 +330,8 @@ public class NetworkSimulator {
 
     // ------------------- Example Usage -------------------
 
-    public static void main(String[] args) {
-        // 这个 main 方法可以保留用于现有的测试
-        // 您现在可以运行 NetworkSimulatorWriteTest 和 NetworkSimulatorReadTest 来进行封装和解封装测试
-    }
+//    public static void main(String[] args) {
+//        // 这个 main 方法可以保留用于现有的测试
+//        // 您现在可以运行 NetworkSimulatorWriteTest 和 NetworkSimulatorReadTest 来进行封装和解封装测试
+//    }
 }
